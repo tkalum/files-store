@@ -1,0 +1,4 @@
+icon: https://telegra.ph/file/d3d9a559534e4139a8579.jpg
+deploy:
+
+    - okteto deploy --build -f docker-compose.yml
