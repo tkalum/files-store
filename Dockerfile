@@ -6,4 +6,4 @@ COPY . /alpha
 RUN pip install -r requirements.txt
  
 ENTRYPOINT ["python3"]
-CMD ["-m","main.py"]
+CMD ["bash","run.sh"]
